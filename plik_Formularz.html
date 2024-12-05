@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<html>
+	<head>
+	 <meta charset="utf-8">
+ 	<title> ściąganie pliku </title>
+	</head>
+		<body>
+		<br><A HREF="przyklad3.html"> Tutaj będzie Formularz </A></br>
+		<A HREF="przyklad3.html"> Wróć </A>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Zgłoszeniowy na Stanowisko Pracy</title>
+</head>
+<body>
+
+<h1 align="middle">Formularz Zgłoszeniowy na Stanowisko Pracy</h1>
+
+<form action="#" method="post">
+    <!-- Sekcja 1 -->
+    <label for="name">1. Imię:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="surname">Nazwisko:</label><br>
+    <input type="text" id="surname" name="surname"><br><br>
+
+    <label for="father_name">Imię Ojca:</label><br>
+    <input type="text" id="father_name" name="father_name"><br><br>
+
+    <label for="email">Adres e-mail:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Sekcja 2 -->
+    <p>2. Czy masz ukończone 18 lat?</p>
+    <input type="radio" id="age_yes" name="age" value="yes">
+    <label for="age_yes">TAK</label><br>
+    <input type="radio" id="age_no" name="age" value="no">
+    <label for="age_no">NIE</label><br><br>
+
+    <!-- Sekcja 3 -->
+    <p>3. Jeśli NIE, będziemy potrzebować zgody rodzica i zgody ukończenia 16 roku życia.</p>
+    <textarea id="parental_consent" name="parental_consent" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Sekcja 4 -->
+    <p>4. Podaj datę i czas uzupełnienia TEGO formularza.</p>
+    <label for="date">Data:</label>
+    <input type="date" id="date" name="date"><br><br>
+    <label for="time">Czas:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+	<!-- Sekcja 5 -->
+    <p>5. Czy kiedykolwiek pracowałeś/pracowałaś?</p>
+    <input type="radio" id="experience_yes" name="experience" value="yes">
+    <label for="experience_yes">TAK</label><br>
+    <input type="radio" id="experience_no" name="experience" value="no">
+    <label for="experience_no">NIE</label><br><br>
+
+    <!-- Sekcja 6 -->
+    <p>6. Jeśli wybrałeś TAK, to gdzie?</p>
+    <textarea id="previous_workplace" name="previous_workplace" rows="2" cols="50"></textarea><br><br>
+
+    <p>Praca:</p>
+    <select id="job" name="job">
+        <option value="smieciarz">Śmieciarz</option>
+        <option value="ogrodnik">Ogrodnik</option>
+        <option value="dekarz">Dekarz</option>
+        <option value="malarz">Malarz</option>
+        <option value="selektor">Selektor</option>
+        <option value="nauczyciel">Nauczyciel</option>
+        <option value="kierowca_tira">Kierowca Tira</option>
+        <option value="mechanik_samochodowy">Mechanik Samochodowy</option>
+        <option value="lekarz">Lekarz</option>
+        <option value="kominiarz">Kominiarz</option>
+    </select><br><br>
+
+    <!-- Sekcja 7 -->
+    <p>+ Czy masz jakieś zainteresowania? Jeśli tak, to jakie?</p>
+    <textarea id="interests" name="interests" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Przyciski -->
+    <font align="left"><button type="submit">Strona Główna</button></font>
+    <font align="middle"><button type="button" onclick="window.location.href='index.html'">Pomoc</button></font>
+    <font align="right"><button type="button" onclick="window.location.href='pomoc.html'">FormularzStrona</button></font>
+
+</form>
+
+</body>
+</html>
+ 		</body>
+</html
